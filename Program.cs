@@ -43,7 +43,8 @@ namespace Exercice_4._11
 
             for(int compteur = 1; compteur <= NombreEtudiants; compteur++)
             {
-                ObtenirNotesNièmeEtudiant();
+                double moyenne = ObtenirNotesNièmeEtudiant();
+                Console.Write(moyenne);
             }
 
         }
