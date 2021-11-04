@@ -8,7 +8,7 @@ namespace Exercice_4._11
 {
     class Program
     {
-        static double ObtenirNotesNièmeEtudiant(double note)
+        static double ObtenirNotesNièmeEtudiant()
         {
             const int nbDeNotes = 3;
             int compteurNote;
@@ -41,9 +41,9 @@ namespace Exercice_4._11
         {
             const int NombreEtudiants = 2;
 
-            for(int compteur = 1; compteur < NombreEtudiants; compteur++)
+            for(int compteur = 1; compteur <= NombreEtudiants; compteur++)
             {
-                ObtenirNotesNièmeEtudiant(LireNièmeNote());
+                ObtenirNotesNièmeEtudiant();
             }
 
         }
